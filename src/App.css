@@ -5,17 +5,23 @@ body {
 .logo {
     width: 300px;
     height: 300px;
-    padding-left: 500px;
+    margin-left: 500px;
+}
+
+.logo-hospitals {
+    width: 600px;
+    height: 600px;
+    float: right;
 }
 
 .Welcome-P {
-    padding-left: 430px;
+    margin-left: 430px;
     font-size: 30px;
     color: #0b008c;
 }
 
 .explain {
-    padding-left: 10px;
+    margin-left: 10px;
     font-size: 25px;
     /* color: #0b008c; */
 }
@@ -43,4 +49,30 @@ body {
     margin-left: 605px;
     background-color: #0b008c;
     color: white;
+}
+
+.Card-Of-Hospital {
+    width: 150px;
+    height: 156px;
+    float: left;
+}
+
+.informations-about-hospital {
+    margin-left: 180px;
+    font-size: 20px;
+    color: black;
+}
+
+.Card-postion {
+    margin-right: 900px;
+    margin-left: 70px;
+    background-color: white;
+}
+
+.Card-postion:hover {
+    background-color: #0b008c;
+}
+
+.Href-Hospital {
+    text-decoration: none;
 }

@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import Search from './Search.js';
 import reportWebVitals from './reportWebVitals';
+import Cancer from './Cancer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
     {/* <Search /> */}
+    <Cancer />
   </React.StrictMode>,
   document.getElementById('root')
 );
