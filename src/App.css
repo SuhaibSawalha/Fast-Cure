@@ -95,18 +95,38 @@ body {
 .Hospital-Image {
     width: 400px;
     height: 300px;
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 20px;
 }
 
 .Explain-Of-Hospital {
-    margin-left: 150px;
+    margin-left: 50px;
     margin-right: 770px;
     font-size: 25px;
 }
 
 .Reserve-button {
-    margin-left: 100px;
-    width: 100px;
+    margin-left: 130px;
+    width: 300px;
     height: 100px;
+    font-size: 60px;
+    border: #0b008c;
+    color: #0b008c;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 2px;
+}
+
+.Reserve-Postion{
+    margin-top: 230px;
+    float: right;
+}
+
+.Reserve-explain {
+    margin-left: 110px;
+    font-size: 20px;
+}
+
+.Link-decoration {
+    text-decoration: none;
 }
