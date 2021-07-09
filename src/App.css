@@ -59,13 +59,15 @@ body {
 
 .informations-about-hospital {
     margin-left: 180px;
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
 .Card-postion {
     margin-right: 900px;
     margin-left: 70px;
+    margin-top: 50px;
+    height: 156px;
     background-color: white;
 }
 
@@ -73,6 +75,11 @@ body {
     background-color: #0b008c;
 }
 
+.Card-postion:active {
+    background-color: red;
+}
+
 .Href-Hospital {
     text-decoration: none;
+    margin-right: 500px;
 }

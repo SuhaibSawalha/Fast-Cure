@@ -16,7 +16,7 @@ function App() {
       <p className="explain">
         Press the button to get started
       </p>
-      <button className="Start" onClick={event =>  window.location.href='Search.js'}> 
+      <button className="Start" onClick={event =>  window.location.href=''}> 
         Start
       </button>
     </div>
