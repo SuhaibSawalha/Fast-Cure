@@ -5,12 +5,14 @@ import App from './App';
 import Search from './Search.js';
 import reportWebVitals from './reportWebVitals';
 import Cancer from './Cancer';
+import NationalHospital from './NationalHospital';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App /> 
     {/* <Search /> */}
-    <Cancer />
+    {/* <Cancer /> */}
+    {/* <NationalHospital /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

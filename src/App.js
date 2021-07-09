@@ -1,12 +1,22 @@
 import React from "react"
+import Search from "./Search";
 import './App.css';
 import logo from "./Fast-Cure.png"
-import Search from "./Search";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <img src={logo} className="logo"/>
+      <Router>
+      <Link to="/Search"> ssssssssssssssssss </Link>
+      <Search />
+      </Router>
+      {/* <img src={logo} className="logo"/>
       <p className="Welcome-P">
         Welcome everyone to FastCure
       </p>
@@ -18,7 +28,7 @@ function App() {
       </p>
       <button className="Start" onClick={event =>  window.location.href=''}> 
         Start
-      </button>
+      </button> */}
     </div>
   );
 }
