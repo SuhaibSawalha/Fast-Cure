@@ -23,7 +23,6 @@ body {
 .explain {
     margin-left: 10px;
     font-size: 25px;
-    /* color: #0b008c; */
 }
 
 .Start {
@@ -67,16 +66,19 @@ body {
     margin-right: 900px;
     margin-left: 70px;
     margin-top: 50px;
+    margin-bottom: 10px;
     height: 156px;
     background-color: white;
 }
 
 .Card-postion:hover {
+    filter: brightness(1.8);
     background-color: #0b008c;
 }
 
 .Card-postion:active {
     background-color: red;
+    filter: brightness(9);
 }
 
 .Href-Hospital {
