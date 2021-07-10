@@ -1,10 +1,11 @@
 import React from "react"
 import './App.css';
 import logo from "./Fast-Cure.png"
-import hospital1 from "./hospital1.jpg"
+import hospital3 from "./hospital3.jpg"
 import {Link} from "react-router-dom"
 
-function NationalHospital() {
+
+function RamHospital() {
   return (
     <div>
         <img src={logo} className="logo-Hospital-explain"/>
@@ -18,15 +19,16 @@ function NationalHospital() {
                 </button>
             </Link>
         </div>
-        <img src={hospital1} className="Hospital-Image"/>
+        <img src={hospital3} className="Hospital-Image"/>
         <p className="Explain-Of-Hospital">
-            The national hospital in Nablus is an amzaing hospital that has many incredible orthopedic doctors and specializes at treating these injuries.
-        </p>
+            The Ram hospital in Ramallah is a hospital that is  known all over Palestine or its special Cancer treatments involving dome of the best doctors all over Palestine for
+        </p>    
         <p className="Explain-Of-Hospital">
-            Example of doctors: Suhaib Sawalha, Aws Khlaif, Izz Edden Sawalmeh, and Abood Salman.
+            Example of doctors: Uchiha Itachi, Lelouch Lamperouge, Levi Ackerman, and Tala Edaily
+  
         </p>
     </div>
   );
 }
 
-export default NationalHospital;
+export default RamHospital;

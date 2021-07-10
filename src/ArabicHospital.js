@@ -1,10 +1,10 @@
 import React from "react"
 import './App.css';
 import logo from "./Fast-Cure.png"
-import hospital1 from "./hospital1.jpg"
+import hospital2 from "./hospital2.jpg"
 import {Link} from "react-router-dom"
 
-function NationalHospital() {
+function ArabicHospital() {
   return (
     <div>
         <img src={logo} className="logo-Hospital-explain"/>
@@ -18,15 +18,15 @@ function NationalHospital() {
                 </button>
             </Link>
         </div>
-        <img src={hospital1} className="Hospital-Image"/>
+        <img src={hospital2} className="Hospital-Image"/>
         <p className="Explain-Of-Hospital">
-            The national hospital in Nablus is an amzaing hospital that has many incredible orthopedic doctors and specializes at treating these injuries.
-        </p>
+            The Arabic hospital in Asira is a hospital that specializes in heart treatments and surgeries.
+        </p>    
         <p className="Explain-Of-Hospital">
-            Example of doctors: Suhaib Sawalha, Aws Khlaif, Izz Edden Sawalmeh, and Abood Salman.
+            It has some of the most famous doctors in Palestine such as : Rafat Abdulfatah, Ayham Kamal, and Baha jaghoob        
         </p>
     </div>
   );
 }
 
-export default NationalHospital;
+export default ArabicHospital;
