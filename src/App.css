@@ -3,9 +3,9 @@ body {
 }
 
 .logo {
-    width: 300px;
-    height: 300px;
-    margin-left: 500px;
+    width: 250px;
+    height: 250px;
+    margin-left: 550px;
 }
 
 .logo-hospitals {
@@ -21,7 +21,7 @@ body {
 }
 
 .Welcome-P {
-    margin-left: 430px;
+    text-align: center;
     font-size: 30px;
     color: #0b008c;
 }
@@ -29,6 +29,7 @@ body {
 .explain {
     margin-left: 10px;
     font-size: 25px;
+    text-align: center;
 }
 
 .Start {
@@ -47,6 +48,10 @@ body {
     border-style: double;
     border-width: 2px;
     font-size: 20px;
+}
+
+.Submit-box {
+    margin-left: 40px;
 }
 
 .Submit-button {
@@ -103,6 +108,7 @@ body {
     margin-left: 50px;
     margin-right: 770px;
     font-size: 25px;
+    margin-right: 900px;
 }
 
 .Reserve-button {
@@ -164,31 +170,4 @@ body {
     border-radius: 20px;
     border-style: double;
     border-width: 2px;
-}
-
-.The-Paper {
-    background-color: white;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 40px;
-    border-color: black;
-    border-width: 1px;
-    border-style: double;
-}
-
-.Paper-photo {
-    width: 100px;
-    height: 100px;
-}
-
-.Paper-logo {
-    width: 100px;
-    height: 100px;
-    margin-left: 900px;
-}
-
-.Paper-Name {
-    float: right;
-    font-size: 40px;
-    margin-right: 400px;
 }

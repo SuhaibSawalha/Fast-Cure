@@ -3,6 +3,13 @@ import './App.css';
 import logo from "./Fast-Cure.png"
 import {Link} from "react-router-dom";
 
+function sendMail() {
+  var link = "SuahibSawalha7@gmail.com"
+  ;
+  
+  window.location.href = link;
+}
+
 function Search() {
   return (
     <div>
@@ -10,7 +17,7 @@ function Search() {
         <br/>
         <br/>
         <br/>
-        <input placeholder="Full Name" type="text" name="name" className="Input-Reserve-box"/>
+        <input placeholder="ID Number" type="text" name="name" className="Input-Reserve-box"/>
         <input placeholder="Mobile Number" type="text" name="name" className="Input-Reserve-box"/>
         <input placeholder="Email" type="text" name="name" className="Input-Reserve-box"/>
         <br/>
@@ -18,11 +25,9 @@ function Search() {
         <input placeholder="Appointment Date" type="text" name="name" className="Input-Reserve-box"/>
         <input placeholder="Appointment Time" type="text" name="name" className="Input-Reserve-box"/>
         <input placeholder="Insurance" type="text" name="name" className="Input-Reserve-box"/>
-        <Link to="/Paper">
-            <button className="Reserve-button-information">
-                Reserve
-            </button>
-        </Link>
+        <button className="Reserve-button-information" onClick={event => alert("Check your email")}>
+            Reserve
+        </button>
     </div>
   );
 }

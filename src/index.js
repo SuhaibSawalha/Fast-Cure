@@ -2,17 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Search from './Search.js';
 import reportWebVitals from './reportWebVitals';
-import Cancer from './Cancer';
-import NationalHospital from './NationalHospital';
 
 ReactDOM.render(
   <React.StrictMode>
     <App /> 
-    {/* <Search /> */}
-    {/* <Cancer /> */}
-    {/* <NationalHospital /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

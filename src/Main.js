@@ -1,5 +1,4 @@
 import React from "react"
-import Search from "./Search";
 import './App.css';
 import logo from "./Fast-Cure.png"
 import {Link} from "react-router-dom";
@@ -15,13 +14,16 @@ function Main() {
         If you have problems making reservations at hospitals to get to a certain doctor or if people just don't show up on time, so your reservation time changes FastCure will help you with those problems
       </p>
       <p className="explain">
-        Press the button to get started
+        Type your sickness
       </p>
-      <Link to="/Search"> 
-        <button className="Start"> 
-            Start
-        </button>
-      </Link>
+      <form className="Submit-box">
+            <input type="text" name="name" className="Input-box"/>
+            <br/>
+            <br/>
+            <Link to = "/Cancer">
+              <input type="submit" value="Submit" className="Submit-button"/>
+            </Link> 
+        </form>
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import React from "react"
 import Main from "./Main"
-import Search from "./Search";
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,7 +10,6 @@ import NationalHospital from "./NationalHospital"
 import ArabicHospital from "./ArabicHospital"
 import RamHospital from "./RamHospital"
 import Reserve from "./Reserve"
-import Paper from "./Paper"
 
 
 function App() {
@@ -20,10 +18,6 @@ function App() {
       <Switch>
         <Route exact path="/"> 
           <Main />
-        </Route>
-
-        <Route path="/Search"> 
-          <Search />
         </Route>
 
         <Route path="/Cancer"> 
@@ -44,10 +38,6 @@ function App() {
 
         <Route path="/RamHospital">
           <RamHospital />
-        </Route>
-
-        <Route path="/Paper">
-          <Paper />
         </Route>
 
       </Switch>
