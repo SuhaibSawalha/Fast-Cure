@@ -1,6 +1,6 @@
 import React from "react"
 import './App.css';
-import logo from "./Fast-Cure.png"
+import logo from "./Logo.png"
 import Hospital from "./Hospital";
 import hospital1 from "./hospital1.jpg"
 import hospital2 from "./hospital2.jpg"

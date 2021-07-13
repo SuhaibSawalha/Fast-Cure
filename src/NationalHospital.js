@@ -1,6 +1,6 @@
 import React from "react"
 import './App.css';
-import logo from "./Fast-Cure.png"
+import logo from "./Logo.png"
 import hospital1 from "./hospital1.jpg"
 import {Link} from "react-router-dom"
 
@@ -19,12 +19,14 @@ function NationalHospital() {
             </Link>
         </div>
         <img src={hospital1} className="Hospital-Image"/>
-        <p className="Explain-Of-Hospital">
-            The national hospital in Nablus is an amzaing hospital that has many incredible orthopedic doctors and specializes at treating these injuries.
-        </p>
-        <p className="Explain-Of-Hospital">
-            Example of doctors: Suhaib Sawalha, Aws Khlaif, Izz Edden Sawalmeh, and Abood Salman.
-        </p>
+        <div className="Hospital-Explain-Card">
+            <p /*className="Explain-Of-Hospital"*/>
+                The national hospital in Nablus is an amzaing hospital that has many incredible orthopedic doctors and specializes at treating these injuries.
+            </p>
+            <p /*className="Explain-Of-Hospital"*/>
+                Example of doctors: Suhaib Sawalha, Aws Khlaif, Izz Edden Sawalmeh, and Abood Salman.
+            </p>
+        </div>
     </div>
   );
 }

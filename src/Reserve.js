@@ -1,14 +1,7 @@
 import React from "react"
 import './App.css';
-import logo from "./Fast-Cure.png"
+import logo from "./Logo.png"
 import {Link} from "react-router-dom";
-
-function sendMail() {
-  var link = "SuahibSawalha7@gmail.com"
-  ;
-  
-  window.location.href = link;
-}
 
 function Search() {
   return (
@@ -26,7 +19,7 @@ function Search() {
         <input placeholder="Appointment Time" type="text" name="name" className="Input-Reserve-box"/>
         <input placeholder="Insurance" type="text" name="name" className="Input-Reserve-box"/>
         <button className="Reserve-button-information" onClick={event => alert("Check your email")}>
-            Reserve
+          Reserve
         </button>
     </div>
   );
